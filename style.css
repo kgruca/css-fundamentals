@@ -1,5 +1,10 @@
 h1, h2, h3, h4, p, li {
     font-family: sans-serif;
+    color: #575e55;
+}
+
+h1, h2, h3 {
+    color: #e8a249;
 }
 
 h1 {
@@ -58,4 +63,18 @@ article header p {
 
 .related {
     list-style: none;
+}
+
+.main-header {
+    background-color: #ced89d;
+}
+
+aside {
+    background-color: #ced89d;
+    border-top: 5px solid #dfba74;
+    border-bottom: 5px solid #dfba74;
+}
+
+body {
+    background-color: #cde9ca;
 }
