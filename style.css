@@ -31,14 +31,22 @@ li {
     font-size: 20px;
 }
 
-/*
-descendant selector
-*/
+/* descendant selector
 footer p {
+    font-size: 16px;
+} */
+
+#copyright {
     font-size: 16px;
 }
 
-/* nested descendant selectors */
+/* nested descendant selectors 
 article header p {
     font-style: italic;
+}  */
+
+/* sometimes it's better to use ids and classes */
+#author {
+    font-style: italic;
+    font-size: 18px;
 }
