@@ -13,6 +13,7 @@ body {
     background-color: #ced89d;
     padding: 20px 40px;
     margin-bottom: 60px;
+    height: 80px;
 }
 
 nav {
@@ -32,6 +33,7 @@ aside {
     border-top: 5px solid #dfba74;
     border-bottom: 5px solid #dfba74;
     padding: 50px 0;
+    width: 33%;
 }
 
 h1, h2, h3 {
@@ -164,4 +166,9 @@ a:hover {
 
 a:active {
     font-weight: bold;
+}
+
+.post-img {
+    width: 50%;
+    height: auto;
 }
