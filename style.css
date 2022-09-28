@@ -9,6 +9,13 @@ body {
     color: #575e55;
 }
 
+.container {
+    width: 75%;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: 0 auto; 
+}
+
 .main-header {
     background-color: #ced89d;
     padding: 20px 40px;
