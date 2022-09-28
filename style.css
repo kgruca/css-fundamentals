@@ -1,6 +1,37 @@
-h1, h2, h3, h4, p, li {
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #cde9ca;
     font-family: sans-serif;
     color: #575e55;
+}
+
+.main-header {
+    background-color: #ced89d;
+    padding: 20px 40px;
+    margin-bottom: 60px;
+}
+
+nav {
+    font-size: 16px;
+}
+
+article {
+    margin-bottom: 60px;
+}
+
+.post-header {
+    margin-bottom: 40px;
+}
+
+aside {
+    background-color: #ced89d;
+    border-top: 5px solid #dfba74;
+    border-bottom: 5px solid #dfba74;
+    padding: 50px 0;
 }
 
 h1, h2, h3 {
@@ -15,10 +46,13 @@ h1 {
 
 h2 {
     font-size: 40px;
+    margin-bottom: 30px;
 }
 
 h3 {
     font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 40px;
 }
 
 h4 {
@@ -30,10 +64,21 @@ h4 {
 p {
     font-size: 22px;
     line-height: 1.25;
+    margin-bottom: 15px;
+}
+
+ul, ol {
+    margin-left: 50px;
+    margin-bottom: 20px;
 }
 
 li {
     font-size: 20px;
+    margin-bottom: 10px;
+}
+
+li:last-child {
+    margin-bottom: 0;
 }
 
 /* descendant selector
@@ -63,20 +108,6 @@ article header p {
 
 .related {
     list-style: none;
-}
-
-.main-header {
-    background-color: #ced89d;
-}
-
-aside {
-    background-color: #ced89d;
-    border-top: 5px solid #dfba74;
-    border-bottom: 5px solid #dfba74;
-}
-
-body {
-    background-color: #cde9ca;
 }
 
 /*
