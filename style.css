@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #cde9ca;
+    background-color: #fcfcfc;
     font-family: sans-serif;
     color: #575e55;
 }
@@ -18,7 +18,7 @@ body {
 }
 
 .main-header {
-    background-color: #ced89d;
+    background-color: #f6e4f2;
     padding: 20px 40px;
     margin-bottom: 60px;
     height: 80px;
@@ -26,6 +26,7 @@ body {
 
 nav {
     font-size: 16px;
+    text-align: center;
 }
 
 article {
@@ -37,15 +38,15 @@ article {
 }
 
 aside {
-    background-color: #ced89d;
-    border-top: 5px solid #dfba74;
-    border-bottom: 5px solid #dfba74;
+    background-color: #f6e4f2;
+    border-top: 5px solid #ea8bd7;
+    border-bottom: 5px solid #ea8bd7;
     padding: 50px 0;
     width: 50%;
 }
 
 h1, h2, h3 {
-    color: #e8a249;
+    color: #ea8bd7;
 }
 
 h1 {
@@ -67,7 +68,7 @@ h2 {
 
 h2::after {
     content: "TOP";
-    background-color: #ffe70e;
+    background-color: #cedc98;
     font-size: 16px;
     font-weight: bold;
     display: inline-block;
@@ -178,12 +179,12 @@ a {
 /* Instead, target a pseudoclass of a */
 
 a:link {
-    color: #1098ad;
+    color: #98addc;
     text-decoration: none;
 }
 
 a:visited {
-    color: #1098ad;
+    color: #98addc;
 }
 
 a:hover {
