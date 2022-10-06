@@ -22,6 +22,9 @@ body {
     padding: 20px 40px;
     margin-bottom: 60px;
     height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 nav {
@@ -184,7 +187,8 @@ a:link {
 }
 
 a:visited {
-    color: #98addc;
+    color: #98addc
+    ;
 }
 
 a:hover {
@@ -203,8 +207,7 @@ a:active {
 
 nav a:link {
     margin-right: 30px;
-    margin-top: 10px;
-    display: inline-block;
+
 }
 
 nav a:link:last-child {
